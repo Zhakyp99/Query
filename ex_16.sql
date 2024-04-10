@@ -1,0 +1,1 @@
+select invoiceId,count(quantity) as Quantity from invoiceLine group by invoiceId;

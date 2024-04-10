@@ -1,0 +1,1 @@
+select sum(quantity) from invoiceLine where invoiceId = '37';
